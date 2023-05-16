@@ -13,6 +13,7 @@ The Most Common Words technique was used to identify the most common words in th
 ![image](https://github.com/aziegert/Fake_news_detection/assets/123495041/325173f2-00d1-4664-bcf7-ad2bb5d64f95)
 The Word Cloud library was used to create a word cloud based on the dataset. It is a visual representation of words where the frequency of a word is proportional to its size in the cloud.
 ![image](https://github.com/aziegert/Fake_news_detection/assets/123495041/720f0f9f-0bcb-4532-872f-5b7c8b50d714)
+
 Based on the Logistic Regression model, two models were built: one using the "title" column and the other using the "text" column.
 The best prediction was obtained without building a model, only on the basis of the "subject" feature.
 The best prediction was obtained in the model analyzing news titles. On the test set, the accuracy was 99.52%.
